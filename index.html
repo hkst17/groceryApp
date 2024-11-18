@@ -18,13 +18,22 @@
         </div>
     </div>
     <div class="listContainer">
-        <ul id="listCell">
-
+        <ul id="myUL">
         </ul>
     </div>
     <div class="addButton">
         <img id="plusLogo" src="img/plus.svg" alt="add button">
     </div>
+
+    <script>
+        // Add a "checked" symbol when clicking on a list item
+        var list = document.querySelector('ul');
+        list.addEventListener('click', function (ev) {
+            if (ev.target.tagName === 'LI') {
+                ev.target.classList.toggle('checked');
+            }
+        }, false);
+    </script>
 </body>
 
 </html>
