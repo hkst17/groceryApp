@@ -14,6 +14,10 @@
   scale: 60%;
 }
 
+body {
+  font-family: 'Roboto Mono';
+}
+
 /* Include the padding and border in an element's total width and height */
 * {
   box-sizing: border-box;
@@ -119,7 +123,7 @@ input {
   padding: 10px;
   float: left;
   font-size: 16px;
-
+  font-family: 'Roboto Mono';
 }
 
 /* Style the "Add" button */
